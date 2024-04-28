@@ -1,0 +1,58 @@
+@media screen and (max-width: 896px) {
+    body {
+        max-width: 100% ;
+        margin: 0 auto;
+    }
+    
+    header{
+        flex-direction: column;
+        font-size: 30px;
+
+    }
+    main {
+        flex-direction: column;
+
+    }
+    
+    h2 {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    
+    p{
+        margin: 0 auto;
+        font-size: 40px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    form  [type="Nome"], 
+    form [type="E-mail"]{
+        margin: 10px;
+        max-width: 100%;
+    }
+
+    form [type="submit"] {
+        font-size: 2vw; 
+    }
+
+    input {
+        max-width: 100%;
+        
+    }
+
+    a{
+        font-size: 25px;
+    }
+
+    img {
+        display: none;
+    }
+
+    ul {
+        text-align: center;
+    }
+}
