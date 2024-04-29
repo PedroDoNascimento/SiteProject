@@ -30,7 +30,7 @@
     }
 
     form  [type="Nome"], 
-    form [type="E-mail"]{
+    form [type="password"]{
         margin: 10px;
         max-width: 100%;
     }
