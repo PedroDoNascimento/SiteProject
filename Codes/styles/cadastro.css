@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(34, 34, 34);
+    margin: 0 auto;
+    color: white;
+    font-family: "poppinsregular";
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    background-color: green;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 35px 35px;
+    box-shadow: 0px 10px 40px black;
+}
+
+.text-field{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+#txt-login{
+    color: white;
+    font-size: 90px;
+}
+
+span{
+
+    color: green;
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+form [type="text"],
+form [type="password"],
+form [type="submit"] {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 10px 10px black;
+}
+
+form [type="submit"] {
+    height: 50px;
+    margin: 10px 0;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 60%;
+    align-self: center;
+    box-shadow: 0px 1px 10px;
+
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
