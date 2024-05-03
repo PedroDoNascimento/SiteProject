@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="media.css">
     <title>Funny Community</title>
+    <script src="config.js"></script> 
 </head>
 <body>
     <header> 
@@ -29,7 +30,7 @@
             <h2><span>Inscreva-se agora</span></h2>
             <h2>na NewLegacy</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia vel accusantium quis incidunt placeat tempore sequi, quo, aliquam corporis vitae harum similique cum aliquid. Pariatur eligendi esse quidem eveniet.</p>
-            <form>
+            <form onsubmit="return cadastrarNovoUsuario()">
                 <input type="text" placeholder="Nome">
                 <input type="password" placeholder="Senha">
                 <input type="submit" value="Enviar">

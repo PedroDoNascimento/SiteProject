@@ -79,6 +79,7 @@ form {
 form [type="text"],
 form [type="password"],
 form [type="submit"] {
+    color: white;
     margin: 10px 0;
     padding: 15px;
     border-radius: 20px;
