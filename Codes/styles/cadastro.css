@@ -2,7 +2,7 @@ body{
     background-color: rgb(34, 34, 34);
     margin: 0 auto;
     color: white;
-    font-family: "poppinsregular";
+    font-family: 'DM Sans', sans-serif;
 }
 
 .left-login > h1{
@@ -56,7 +56,7 @@ body{
 
 
 #txt-login{
-    color: rgb(126, 87, 194);
+    color: green;
     font-size: 2vw;
 }
 
@@ -65,7 +65,7 @@ img {
 }
 
 span{
-    color: rgb(126, 87, 194);
+    color: green;
 }
 
 
@@ -93,16 +93,15 @@ form [type="submit"] {
 
 form [type="submit"] {
     height: 3vw;
-    background-color: rgb(126, 87, 194);
+    background-color: green;
     color: rgb(49, 47, 47);
     font-weight: bold;
     width: 60%;
     align-self: center;
-    box-shadow: 0px 10px 40px -12px rgb(126, 87, 194);
+    box-shadow: 0px 10px 40px -12px green;
 
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
 }
-
