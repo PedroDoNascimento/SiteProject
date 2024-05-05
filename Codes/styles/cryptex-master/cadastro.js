@@ -12,7 +12,9 @@ function logar() {
     if (usuarioExistente) {
         alert('Sucesso');
         localStorage.setItem('usuarioLogado', usuario);
-    } else {
+        
+    } 
+     else {
         alert('Usuário ou senha incorretos');
     }
 }
