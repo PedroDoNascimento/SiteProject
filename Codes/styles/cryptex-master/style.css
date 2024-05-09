@@ -107,7 +107,7 @@ form {
 
 form [type="text"],
 form [type="password"],
-form [type="submit"] {
+form [type="button"] {
     margin: 15px 0;
     padding: 15px;
     border-radius: 20px;
@@ -116,7 +116,7 @@ form [type="submit"] {
     
 }
 
-form [type="submit"] {
+form [type="button"] {
     height: 60px;
     background-color: green;
     color: white;
@@ -124,6 +124,6 @@ form [type="submit"] {
     width: 50%;
 }
 
-form [type="submit"]:hover {
+form [type="button"]:hover {
     cursor: pointer;
 }
